@@ -1,0 +1,520 @@
+/*=============================
+Large Laptop
+=============================*/
+
+@media (max-width:1200px){
+
+.container{
+    width:95%;
+}
+
+.hero h1{
+    font-size:48px;
+}
+
+.cards{
+    gap:20px;
+}
+
+.editor-grid{
+    gap:25px;
+}
+
+}
+
+
+
+
+/*=============================
+Laptop / Tablet Landscape
+=============================*/
+
+@media (max-width:992px){
+
+
+.nav{
+    flex-direction:column;
+    gap:20px;
+}
+
+
+nav ul{
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:18px;
+}
+
+
+.hero{
+    padding:70px 20px;
+}
+
+
+.hero h1{
+    font-size:42px;
+}
+
+
+.hero p{
+    font-size:16px;
+}
+
+
+.search-box{
+
+    flex-direction:column;
+    align-items:center;
+    gap:15px;
+
+}
+
+
+.search-box input{
+
+    width:100%;
+    max-width:600px;
+    border-radius:40px;
+    box-sizing:border-box;
+
+}
+
+
+.search-box button{
+
+    width:220px;
+    height:55px;
+    border-radius:40px;
+
+}
+
+
+.cards{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+
+.editor-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+
+.featured img{
+
+    height:320px;
+
+}
+
+
+.footer-grid{
+
+    grid-template-columns:1fr 1fr;
+
+    gap:30px;
+
+}
+
+
+}
+
+
+
+
+
+/*=============================
+Tablet
+=============================*/
+
+@media (max-width:768px){
+
+
+.logo h2{
+
+    font-size:26px;
+
+}
+
+
+.logo img{
+
+    width:50px;
+
+}
+
+
+
+.menu-btn{
+
+    display:block;
+    cursor:pointer;
+
+}
+
+
+
+nav{
+
+    display:none;
+
+}
+
+
+
+nav ul{
+
+    flex-direction:column;
+    align-items:center;
+
+}
+
+
+
+.hero{
+
+    padding:60px 15px;
+
+}
+
+
+
+.hero h1{
+
+    font-size:34px;
+
+}
+
+
+
+.hero p{
+
+    font-size:15px;
+
+}
+
+
+
+.welcome{
+
+    padding:12px 20px;
+    font-size:14px;
+
+}
+
+
+
+.cards{
+
+    grid-template-columns:1fr;
+
+}
+
+
+
+.card img{
+
+    height:240px;
+
+}
+
+
+
+.popular h2,
+.editor h2{
+
+    font-size:32px;
+
+}
+
+
+
+.featured h3{
+
+    font-size:28px;
+
+}
+
+
+
+.small-post{
+
+    flex-direction:column;
+
+}
+
+
+
+.small-post img{
+
+    width:100%;
+    height:180px;
+
+}
+
+
+
+.small-post h4{
+
+    padding:18px;
+
+}
+
+
+
+.footer-grid{
+
+    grid-template-columns:1fr;
+
+    text-align:center;
+
+}
+
+
+
+.social-links{
+
+    justify-content:center;
+
+}
+
+
+}
+
+
+
+
+
+
+/*=============================
+Mobile
+=============================*/
+
+@media (max-width:576px){
+
+
+
+.container{
+
+    width:92%;
+
+}
+
+
+
+.hero h1{
+
+    font-size:28px;
+
+}
+
+
+
+.hero p{
+
+    font-size:14px;
+
+}
+
+
+
+.search-box input{
+
+    height:52px;
+    font-size:15px;
+
+}
+
+
+
+.search-box button{
+
+    height:52px;
+    font-size:15px;
+
+}
+
+
+
+.popular{
+
+    padding:50px 0;
+
+}
+
+
+
+.editor{
+
+    padding:50px 0;
+
+}
+
+
+
+.popular h2,
+.editor h2{
+
+    font-size:28px;
+
+}
+
+
+
+.card h3{
+
+    font-size:22px;
+
+}
+
+
+
+.featured h3{
+
+    font-size:24px;
+
+}
+
+
+
+.featured img{
+
+    height:220px;
+
+}
+
+
+
+.small-post img{
+
+    height:150px;
+
+}
+
+
+
+.newsletter-box{
+
+    flex-direction:column;
+
+}
+
+
+
+.newsletter-box input,
+.newsletter-box button{
+
+    width:100%;
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+/*=============================
+Small Phones
+=============================*/
+
+@media (max-width:400px){
+
+
+
+.logo h2{
+
+    font-size:22px;
+
+}
+
+
+
+.logo img{
+
+    width:45px;
+
+}
+
+
+
+.hero h1{
+
+    font-size:24px;
+
+}
+
+
+
+.hero p{
+
+    font-size:13px;
+
+}
+
+
+
+.search-box input{
+
+    padding:0 18px;
+
+}
+
+
+
+nav ul{
+
+    gap:10px;
+
+}
+
+
+
+.card h3{
+
+    font-size:20px;
+
+}
+
+
+
+}
+
+
+
+
+
+
+/*=============================
+Global Responsive Fixes
+=============================*/
+
+
+img{
+
+    max-width:100%;
+    height:auto;
+
+}
+
+
+
+.container{
+
+    max-width:1200px;
+    margin:auto;
+
+}
+
+
+
+*{
+
+    box-sizing:border-box;
+
+}
